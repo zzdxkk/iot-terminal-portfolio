@@ -44,16 +44,15 @@
 - 两套工程各附 8 项产测清单，上板后按清单逐项执行即可。
 - CoAP 为自研子集（RFC 7252 常用部分）；BLE 单连接、无绑定配对；OTA 未启用（S140 + bootloader 会占约 1/4 Flash）。
 
-## 仓库结构
+## 本仓库内容
 
 ```
-index.html                  在线作品集页面（概览 + 技术细节）
-qr.svg                      指向本作品集的二维码
+index.html                  在线作品集页面（概览 / 技术细节）
+qr.svg                      指向本作品的集的二维码
 assets/architecture.svg     两套终端的链路图
-nbiot-env-terminal/         工程 A 源码（CMake：PC 目标 + ARM 目标）
-ble-sensor-terminal/        工程 B 源码
-firmware/                   交叉编译产物：*.hex / *.bin / *.map
 ```
+
+工程源码（约 13,000 行业务与驱动代码，CMake 双目标：PC 仿真 + ARM 固件）、91 项单元测试、交叉编译产物（.hex / .bin / .map）与全套设计文档都在本地仓库里：**需要查看可邮件索取，或在面试现场用一条命令跑完整测试与编译过程。**
 
 ---
 
