@@ -48,7 +48,7 @@
 
 ```
 index.html                  在线作品集页面（概览 / 技术细节）
-qr.svg                      指向本作品的集的二维码
+qr.svg                      作品集二维码
 assets/architecture.svg     两套终端的链路图
 ```
 
